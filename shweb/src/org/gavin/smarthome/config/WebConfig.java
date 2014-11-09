@@ -1,8 +1,8 @@
 package org.gavin.smarthome.config;
 
-import org.beetl.core.GroupTemplate;
 import org.beetl.ext.jfinal.BeetlRenderFactory;
 import org.gavin.smarthome.controller.HomeController;
+import org.gavin.smarthome.handler.GlobalHandler;
 import org.gavin.smarthome.model.User;
 
 import com.jfinal.config.Constants;
@@ -71,7 +71,7 @@ public class WebConfig extends JFinalConfig{
 	@Override
 	public void configHandler(Handlers me) {
 		// TODO Auto-generated method stub
-		
+		me.add(new GlobalHandler());
 	}
 	
 	public static void main(String[] args) {

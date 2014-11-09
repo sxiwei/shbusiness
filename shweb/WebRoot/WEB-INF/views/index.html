@@ -1,110 +1,66 @@
 @ layout("_layout.html") {
-<div id="page">
-	<div id="content">
-		<div class="post">
-			<h2 class="title">
-				<a href="#">Welcome to The Fences </a>
-			</h2>
-			<p class="meta">
-				Sunday, April 26, 2009 7:27 AM Posted by <a href="#">Someone</a>
-			</p>
-			<div class="entry">
-				<p>
-					This is <strong>The Fences </strong>, a free, fully
-					standards-compliant CSS template designed by <a
-						href="http://www.freecsstemplates.org/">Free CSS Templates</a>,
-					released for free under the <a
-						href="http://creativecommons.org/licenses/by/2.5/">Creative
-						Commons Attribution 2.5</a> license. You're free to use this template
-					for anything as long as you link back to <a
-						href="http://www.freecsstemplates.org/">my site</a>. Enjoy :)
-				</p>
-				<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam
-					bibendum. In nulla tortor, elementum ipsum. Proin imperdiet est.
-					Phasellus dapibus semper urna. Pellentesque ornare, orci in felis.
-				</p>
-			</div>
-		</div>
-		<div class="post">
-			<h2 class="title">
-				<a href="#">Lorem ipsum sed aliquam</a>
-			</h2>
-			<p class="meta">
-				Sunday, April 26, 2009 7:27 AM Posted by <a href="#">Someone</a>
-			</p>
-			<div class="entry">
-				<p>
-					Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam
-					bibendum. In nulla tortor, elementum vel, tempor at, varius non,
-					purus. Mauris vitae nisl nec consectetuer. Donec ipsum. Proin
-					imperdiet est. Phasellus <a href="#">dapibus semper urna</a>.
-					Pellentesque ornare, orci in consectetuer hendrerit, urna elit
-					eleifend nunc, ut consectetuer nisl felis ac diam. Etiam non felis.
-					Donec ut ante. In id eros.
-				</p>
-			</div>
-		</div>
-		<div class="post">
-			<h2 class="title">
-				<a href="#">Lorem ipsum sed aliquam</a>
-			</h2>
-			<p class="meta">
-				Sunday, April 26, 2009 7:27 AM Posted by <a href="#">Someone</a>
-			</p>
-			<div class="entry">
-				<p>
-					Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum.
-					Proin imperdiet est. Sed lacus. Donec lectus. Nullam pretium nibh
-					ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at,
-					varius non, purus. Mauris vitae nisl nec metus placerat
-					consectetuer. Donec ipsum. Proin imperdiet est. Phasellus <a
-						href="#">dapibus semper urna</a>. Pellentesque ornare, orci in
-					consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer
-					nisl felis ac diam.
-				</p>
-			</div>
-		</div>
-	</div>
-	<!-- end #content -->
-	<div id="sidebar">
-		<ul>
-			<li>
-				<h2>Aliquam tempus</h2>
-				<p>Mauris vitae nisl nec metus placerat perdiet est. Phasellus
-					dapibus semper urna. Pellentesque ornare, orci in consectetuer
-					hendrerit, volutpat.</p>
-			</li>
-			<li>
-				<h2>Pellenteque ornare</h2>
-				<ul>
-					<li><a href="#">Nec metus sed donec</a></li>
-					<li><a href="#">Magna lacus bibendum mauris</a></li>
-					<li><a href="#">Velit semper nisi molestie</a></li>
-					<li><a href="#">Eget tempor eget nonummy</a></li>
-					<li><a href="#">Nec metus sed donec</a></li>
-					<li><a href="#">Velit semper nisi molestie</a></li>
-					<li><a href="#">Eget tempor eget nonummy</a></li>
-					<li><a href="#">Nec metus sed donec</a></li>
-				</ul>
-			</li>
-			<li>
-				<h2>Turpis nulla</h2>
-				<ul>
-					<li><a href="#">Nec metus sed donec</a></li>
-					<li><a href="#">Magna lacus bibendum mauris</a></li>
-					<li><a href="#">Velit semper nisi molestie</a></li>
-					<li><a href="#">Eget tempor eget nonummy</a></li>
-					<li><a href="#">Nec metus sed donec</a></li>
-					<li><a href="#">Nec metus sed donec</a></li>
-					<li><a href="#">Magna lacus bibendum mauris</a></li>
-					<li><a href="#">Velit semper nisi molestie</a></li>
-					<li><a href="#">Eget tempor eget nonummy</a></li>
-					<li><a href="#">Nec metus sed donec</a></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<!-- end #sidebar -->
-	<div style="clear: both;">&nbsp;</div>
-</div>
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" style="padding-left:1px; padding-right:1px;">
+      <div class="carousel-inner">
+        <div class="item active" >
+            <img src="${cxt}/assets/img/slide-01.jpg" alt="">
+            <div class="container">
+            <div class="carousel-caption" style="background-color:transparent;">
+              <h1>Example headline.</h1>
+              <p class="lead">Cras justo odio</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="${cxt}/assets/img/slide-02.jpg" alt="">
+           <div class="container">
+            <div class="carousel-caption" style="background-color:transparent;">
+              <h1>Another example headline.</h1>
+              <p class="lead">Cras justo odio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+              <img src="${cxt}/assets/img/slide-03.jpg" alt="">
+              <div class="container">
+            <div class="carousel-caption" style="background-color:transparent;">
+              <h1>One more for good measure.</h1>
+              <p class="lead">Cras justo odio</p>
+            </div>
+          </div>
+            </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+    
+    <div class="container">
+      
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <!--div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+      </div-->
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
 @ }
