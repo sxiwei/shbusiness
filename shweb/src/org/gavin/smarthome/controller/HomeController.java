@@ -13,16 +13,7 @@ public class HomeController extends Controller{
 	private static final Logger log = Logger.getLogger(HomeController.class);
 	
 	public void index(){
-		log.info("---------home-------------");
-		Subject currentUser = SecurityUtils.getSubject();
-		UsernamePasswordToken token = new UsernamePasswordToken("gavin",
-				"gavin");
-		try {
-			currentUser.login(token);
-			log.info("login success");
-		}catch(AuthenticationException e){
-			log.info("login failed");
-		}
-		render("index.html");
+		
+		render("/login");
 	}
 }

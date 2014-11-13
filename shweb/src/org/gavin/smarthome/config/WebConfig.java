@@ -2,6 +2,7 @@ package org.gavin.smarthome.config;
 
 import org.beetl.ext.jfinal.BeetlRenderFactory;
 import org.gavin.smarthome.controller.HomeController;
+import org.gavin.smarthome.controller.LoginController;
 import org.gavin.smarthome.handler.GlobalHandler;
 import org.gavin.smarthome.model.User;
 
@@ -35,6 +36,7 @@ public class WebConfig extends JFinalConfig{
 		// TODO Auto-generated method stub
 		this.route = me;
 		me.add("/",HomeController.class);
+		me.add("/login",LoginController.class);
 	}
 
 	@Override
