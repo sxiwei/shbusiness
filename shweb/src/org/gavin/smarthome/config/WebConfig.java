@@ -3,7 +3,10 @@ package org.gavin.smarthome.config;
 import org.beetl.ext.jfinal.BeetlRenderFactory;
 import org.gavin.smarthome.controller.HomeController;
 import org.gavin.smarthome.controller.LoginController;
+import org.gavin.smarthome.controller.ProductController;
 import org.gavin.smarthome.handler.GlobalHandler;
+import org.gavin.smarthome.model.IndexCarousel;
+import org.gavin.smarthome.model.IndexColumn;
 import org.gavin.smarthome.model.User;
 
 import com.jfinal.config.Constants;
@@ -37,6 +40,7 @@ public class WebConfig extends JFinalConfig{
 		this.route = me;
 		me.add("/",HomeController.class);
 		me.add("/login",LoginController.class);
+		me.add("/product",ProductController.class);
 	}
 
 	@Override
@@ -55,6 +59,8 @@ public class WebConfig extends JFinalConfig{
 		// ActiveRecord插件
 		ActiveRecordPlugin arp = new ActiveRecordPlugin(druidPlugin);
 		arp.addMapping("sh_user", User.class);
+		arp.addMapping("sh_index_carousel", IndexCarousel.class);
+		arp.addMapping("sh_index_column", IndexColumn.class);
 		me.add(arp);
 
 		// 加载Shiro插件

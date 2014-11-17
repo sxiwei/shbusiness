@@ -1,0 +1,1509 @@
+
+2014-11-13 16:09:18
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 16:09:19
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:09:19
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:09:19
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 16:09:19
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 16:09:19
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 16:09:20
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 16:09:20
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 16:09:20
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 16:09:20
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 669 ms.
+
+2014-11-13 16:09:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:09:20
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 16:09:20
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 16:09:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 16:10:03
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 16:10:03
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:10:03
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:10:03
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 16:10:03
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 16:10:04
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 16:10:04
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 16:10:04
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 16:10:04
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 16:10:04
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 726 ms.
+
+2014-11-13 16:10:04
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:10:04
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 16:10:04
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 16:10:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-29]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-29]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-33]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-33]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-33]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:10:12
+[INFO]-[Thread: qtp968288632-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:11:41
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 16:11:42
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:11:42
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:11:42
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 16:11:42
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 16:11:42
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 16:11:42
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 16:11:43
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 16:11:43
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 16:11:43
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 641 ms.
+
+2014-11-13 16:11:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:11:43
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 16:11:43
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 16:11:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 16:12:02
+[INFO]-[Thread: qtp395961058-28]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 16:12:02
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:12:02
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:12:02
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:12:02
+[INFO]-[Thread: qtp395961058-28]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 16:12:02
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:12:02
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:12:02
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:13:54
+[INFO]-[Thread: qtp395961058-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:13:54
+[INFO]-[Thread: qtp395961058-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:13:54
+[INFO]-[Thread: qtp395961058-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:13:54
+[INFO]-[Thread: qtp395961058-32]-[org.gavin.smarthome.controller.LoginController.index()]: ---------home-------------
+
+2014-11-13 16:13:54
+[INFO]-[Thread: qtp395961058-32]-[org.gavin.smarthome.controller.LoginController.index()]: login failed
+
+2014-11-13 16:14:44
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 16:14:45
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:14:45
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:14:45
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 16:14:45
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 16:14:45
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 16:14:45
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 16:14:45
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 16:14:45
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 16:14:45
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 656 ms.
+
+2014-11-13 16:14:45
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:14:46
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 16:14:46
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 16:14:46
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 16:14:51
+[INFO]-[Thread: qtp2013163400-29]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 16:14:51
+[INFO]-[Thread: qtp2013163400-29]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 16:14:51
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:14:51
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:14:51
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:14:51
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.controller.LoginController.index()]: ---------home-------------
+
+2014-11-13 16:14:51
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.controller.LoginController.index()]: login failed
+
+2014-11-13 16:15:28
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 16:15:29
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:15:29
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:15:29
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 16:15:29
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 16:15:29
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 16:15:29
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 16:15:29
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 16:15:29
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 16:15:29
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 645 ms.
+
+2014-11-13 16:15:29
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:15:30
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 16:15:30
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 16:15:30
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.controller.LoginController.index()]: ---------home-------------
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.controller.LoginController.index()]: login failed
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:15:33
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:15:34
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:15:34
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:15:34
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:17:19
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:17:19
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:17:19
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:17:19
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.controller.LoginController.index()]: ---------home-------------
+
+2014-11-13 16:17:19
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 16:17:26
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:17:26
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:17:26
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:17:26
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.controller.LoginController.index()]: ---------home-------------
+
+2014-11-13 16:17:26
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 16:56:50
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 16:56:50
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:56:50
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:56:50
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 16:56:50
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 16:56:51
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 16:56:51
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 16:56:51
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 16:56:51
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 16:56:51
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 748 ms.
+
+2014-11-13 16:56:51
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:56:52
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 16:56:52
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 16:56:52
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 16:57:00
+[INFO]-[Thread: qtp2013163400-29]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 16:57:00
+[INFO]-[Thread: qtp2013163400-29]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 16:57:00
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:00
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:00
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:00
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.controller.LoginController.index()]: ---------home-------------
+
+2014-11-13 16:57:00
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.controller.LoginController.index()]: 缓存中的用户名：gavin
+
+2014-11-13 16:57:00
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-25]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-25]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-25]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-33]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-33]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-33]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:01
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.controller.LoginController.index()]: ---------home-------------
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-25]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-25]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-25]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-32]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-33]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-33]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:57:21
+[INFO]-[Thread: qtp2013163400-33]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:58:11
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2014-11-13 16:58:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2014-11-13 16:58:11
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.disableSessionValidation()]: Disabled session validation scheduler.
+
+2014-11-13 16:58:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.servlet.listener.ELContextCleaner.contextDestroyed()]: javax.el.BeanELResolver purged
+
+2014-11-13 16:58:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: stopped o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:58:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:58:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:58:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 16:58:11
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 16:58:16
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 16:58:16
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:58:16
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:58:16
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 16:58:16
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 16:58:17
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 16:58:17
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 16:58:17
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 16:58:17
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 16:58:17
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 723 ms.
+
+2014-11-13 16:58:17
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 16:58:17
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 16:58:17
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 16:58:18
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 16:58:24
+[INFO]-[Thread: qtp1632405315-27]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 16:58:24
+[INFO]-[Thread: qtp1632405315-27]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 16:58:24
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:58:24
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:58:24
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:58:24
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 16:58:24
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 16:58:43
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 16:58:43
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 16:58:43
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 16:58:43
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 16:58:43
+[INFO]-[Thread: qtp1632405315-27]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:01:26
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 17:01:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:01:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:01:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 17:01:27
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 17:01:27
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 17:01:27
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 17:01:27
+[WARN]-[Thread: main]-[net.sf.ehcache.store.disk.DiskStorageFactory.<init>()]: The index for data file C:\Users\sunxiwei\AppData\Local\Temp\shiro-ehcache\shiro-active%0053ession%0043ache.data is out of date, probably due to an unclean shutdown. Deleting index file C:\Users\sunxiwei\AppData\Local\Temp\shiro-ehcache\shiro-active%0053ession%0043ache.index
+
+2014-11-13 17:01:27
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 17:01:27
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 17:01:27
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 819 ms.
+
+2014-11-13 17:01:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:01:28
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 17:01:28
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 17:01:28
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 17:01:35
+[INFO]-[Thread: qtp2013163400-31]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 17:01:36
+[INFO]-[Thread: qtp2013163400-31]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 17:01:36
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:01:36
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:01:36
+[INFO]-[Thread: qtp2013163400-31]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:01:36
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:01:36
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:01:36
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:02:12
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 17:02:13
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:02:13
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:02:13
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 17:02:13
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 17:02:13
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 17:02:13
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 17:02:13
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 17:02:13
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 17:02:13
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 670 ms.
+
+2014-11-13 17:02:13
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:02:14
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 17:02:14
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 17:02:14
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 17:02:18
+[INFO]-[Thread: qtp395961058-29]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 17:02:18
+[INFO]-[Thread: qtp395961058-29]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 17:02:18
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:02:18
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:02:18
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:02:51
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 17:02:52
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:02:52
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:02:52
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 17:02:52
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 17:02:52
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 17:02:52
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 17:02:52
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 17:02:52
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 17:02:52
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 701 ms.
+
+2014-11-13 17:02:52
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:02:53
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 17:02:53
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 17:02:53
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 17:02:58
+[INFO]-[Thread: qtp968288632-23]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 17:02:58
+[INFO]-[Thread: qtp968288632-23]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 17:02:59
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:02:59
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:02:59
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:02:59
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:02:59
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.controller.LoginController.index()]: 缓存中的用户名：gavin
+
+2014-11-13 17:02:59
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:02:59
+[INFO]-[Thread: qtp968288632-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:02:59
+[INFO]-[Thread: qtp968288632-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:02:59
+[INFO]-[Thread: qtp968288632-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:03:48
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:03:48
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:03:48
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:03:48
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:03:48
+[INFO]-[Thread: qtp968288632-23]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:04:39
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 17:04:40
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:04:40
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:04:40
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 17:04:40
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 17:04:40
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 17:04:40
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 17:04:41
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 17:04:41
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 17:04:41
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 660 ms.
+
+2014-11-13 17:04:41
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:04:41
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 17:04:41
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 17:04:41
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():false
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():true
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.controller.LoginController.index()]: 缓存中的用户名：gavin
+
+2014-11-13 17:04:46
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:13:42
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:13:42
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:13:42
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:13:42
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:13:42
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():true
+
+2014-11-13 17:13:42
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():false
+
+2014-11-13 17:13:42
+[INFO]-[Thread: qtp395961058-27]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:13:54
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:13:54
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:13:54
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:13:54
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:13:54
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():true
+
+2014-11-13 17:13:54
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():false
+
+2014-11-13 17:13:54
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:14:05
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:14:05
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:14:05
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:14:05
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:14:05
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():true
+
+2014-11-13 17:14:05
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():false
+
+2014-11-13 17:14:05
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:14:16
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:14:16
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:14:16
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:14:16
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:14:16
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():true
+
+2014-11-13 17:14:16
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():false
+
+2014-11-13 17:14:16
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:15:03
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:15:03
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:15:03
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:15:03
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:15:03
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():false
+
+2014-11-13 17:15:03
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():true
+
+2014-11-13 17:15:03
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: 缓存中的用户名：gavin
+
+2014-11-13 17:15:03
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:17:39
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 17:17:39
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:17:39
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:17:39
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 17:17:39
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 17:17:40
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 17:17:40
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 17:17:40
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 17:17:40
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 17:17:40
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 692 ms.
+
+2014-11-13 17:17:40
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:17:41
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 17:17:41
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 17:17:41
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():false
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():true
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.controller.LoginController.index()]: 缓存中的用户名：gavin
+
+2014-11-13 17:17:48
+[INFO]-[Thread: qtp2013163400-26]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:17:57
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:17:57
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:17:57
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:17:57
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:17:57
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():true
+
+2014-11-13 17:17:57
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():false
+
+2014-11-13 17:17:57
+[INFO]-[Thread: qtp2013163400-27]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:19:58
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 17:19:58
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:19:58
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:19:58
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 17:19:58
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 17:19:59
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 17:19:59
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 17:19:59
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 17:19:59
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 17:19:59
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 753 ms.
+
+2014-11-13 17:19:59
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:19:59
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 17:20:00
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 17:20:00
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():false
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():true
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.controller.LoginController.index()]: 缓存中的用户名：gavin
+
+2014-11-13 17:20:09
+[INFO]-[Thread: qtp2013163400-28]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:20:47
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.y.z-SNAPSHOT
+
+2014-11-13 17:20:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:20:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:20:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2014-11-13 17:20:48
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2014-11-13 17:20:48
+[INFO]-[Thread: main]-[org.apache.shiro.realm.AuthorizingRealm.getAuthorizationCacheLazy()]: No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+
+2014-11-13 17:20:48
+[WARN]-[Thread: main]-[net.sf.ehcache.config.CacheConfiguration.isEternalValueConflictingWithTTIOrTTL()]: Cache 'myRealm.authorizationCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'myRealm.authorizationCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+
+2014-11-13 17:20:48
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Cache with name 'jdbcRealm.authorizationCache' does not yet exist.  Creating now.
+
+2014-11-13 17:20:48
+[INFO]-[Thread: main]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Added EhCache named [jdbcRealm.authorizationCache]
+
+2014-11-13 17:20:48
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 734 ms.
+
+2014-11-13 17:20:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/G:/gitcode/shbusiness/shweb/WebRoot/}
+
+2014-11-13 17:20:49
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2014-11-13 17:20:49
+[WARN]-[Thread: main]-[net.sf.ehcache.config.ConfigurationFactory.parseConfiguration()]: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/G:/gitcode/shbusiness/shweb/WebRoot/WEB-INF/lib/ehcache-core-2.6.6.jar!/ehcache-failsafe.xml
+
+2014-11-13 17:20:49
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:90
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.apache.shiro.cache.ehcache.EhCacheManager.getCache()]: Using existing EHCache named [shiro-activeSessionCache]
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():false
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():true
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.controller.LoginController.index()]: 缓存中的用户名：gavin
+
+2014-11-13 17:20:57
+[INFO]-[Thread: qtp395961058-29]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:21:30
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:21:30
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:21:30
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:21:30
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:21:30
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():true
+
+2014-11-13 17:21:30
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():false
+
+2014-11-13 17:21:30
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: 用户已经认证了
+
+2014-11-13 17:21:46
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:21:46
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:21:46
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:21:46
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:21:46
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():true
+
+2014-11-13 17:21:46
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():false
+
+2014-11-13 17:21:46
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.controller.LoginController.index()]: 用户已经认证了
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: ---------login-------------
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isAuthenticated():false
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: currentUser.isRemembered():true
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: 缓存中的用户名：gavin
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-26]-[org.gavin.smarthome.controller.LoginController.index()]: login success
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 初始化访问系统功能日志
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 设置 web 路径
+
+2014-11-13 17:22:00
+[INFO]-[Thread: qtp395961058-28]-[org.gavin.smarthome.handler.GlobalHandler.handle()]: 路径：http://localhost:90

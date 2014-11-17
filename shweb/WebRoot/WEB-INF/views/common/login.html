@@ -1,0 +1,21 @@
+@ layout("_layout1.html") {
+<div class="container span4" >
+
+      <form class="form-signin" role="form" action="/login/doLogin">
+        <h2 class="form-signin-heading">Sign in</h2>
+        <input type="email" id="username" name="username" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+        <input type="text" name="code"
+							data-options="required:true"></input>
+		<img id="code" src="/captcha"
+							title="点击刷新" onclick="$(this).attr('src','/captcha?t='+new Date())">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="rememberme" value="true"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+      </form>
+
+    </div>     
+@ }
