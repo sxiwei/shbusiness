@@ -24,7 +24,4 @@ public class HomeController extends Controller{
 		render("/common/index.html");
 	}
 	
-	public void captcha(){
-		render(new CaptchaRender("key"));
-	}
 }

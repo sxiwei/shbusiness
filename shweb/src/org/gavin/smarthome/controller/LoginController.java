@@ -1,5 +1,7 @@
 package org.gavin.smarthome.controller;
 
+import java.util.Enumeration;
+
 import junit.framework.Assert;
 
 import org.apache.log4j.Logger;
@@ -23,7 +25,7 @@ public class LoginController extends Controller{
 	
 	public void index(){
 		log.info("转到登录界面");
-		render("/common/login.html");
+		render("/common/login1.html");
 	}
 	
 	public void doLogin(){
@@ -34,7 +36,12 @@ public class LoginController extends Controller{
 		String code = getPara("code");
 		log.info(username + "====================" + password + "======" + code + "===========" +  rememberme);
 		Subject currentUser = SecurityUtils.getSubject();
-		log.info("result:" + CaptchaRender.validate(this, code, "key"));
+		Enumeration<String> headers = this.getRequest().getHeaderNames();
+		if(headers.hasMoreElements()){
+			log.info("header:" + headers.nextElement() + ",value:" + this.getRequest().getHeader(headers.nextElement()));
+		}
+//		log.info("code in cookie:" + this.getCookie("render_key"));
+//		log.info("result:" + CaptchaRender.validate(this, code.toUpperCase(), "render_key"));
 //		log.info("currentUser.isAuthenticated():" + currentUser.isAuthenticated());
 //		log.info("currentUser.isRemembered():" + currentUser.isRemembered());
 //		if (!currentUser.isAuthenticated() && currentUser.isRemembered()) {
@@ -49,11 +56,29 @@ public class LoginController extends Controller{
 		try {
 			currentUser.login(token);
 			log.info("login success");
-			forwardAction("/");
+//			forwardAction("/");
 		}catch(AuthenticationException e){
 			log.info("login failed");
+			setAttr("msg", "验证码错误");
 			render("/common/login.html");
 		}
+	}
+	
+	public void captcha(){
+		CaptchaRender img = new CaptchaRender("render_key");
+		log.info("code in cookie:" + this.getCookie("render_key"));
+		render(img);
+	}
+	
+	public void validateCode(){
+		log.info("校验验证码");
+		String code = getPara("code");
+		if(CaptchaRender.validate(this, code.toUpperCase(), "render_key")){
+			setAttr("valid", true);
+		}else{
+			setAttr("valid", false);
+		}
+		renderJson();
 	}
 	
 	public static void main(String[] args) {

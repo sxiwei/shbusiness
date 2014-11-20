@@ -1,21 +1,31 @@
 @ layout("_layout1.html") {
-<div class="container span4" >
+<div class="container span5">
 
-      <form class="form-signin" role="form" action="/login/doLogin">
-        <h2 class="form-signin-heading">Sign in</h2>
-        <input type="email" id="username" name="username" class="form-control" placeholder="Email address" required autofocus>
-        <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
-        <input type="text" name="code"
-							data-options="required:true"></input>
-		<img id="code" src="/captcha"
-							title="点击刷新" onclick="$(this).attr('src','/captcha?t='+new Date())">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" name="rememberme" value="true"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
-      </form>
+	<form class="form-group-lg" role="form" action="/login/doLogin">
+		<h2 class="form-signin-heading">Sign in</h2>
 
-    </div>     
+		<div class="input-group">
+			<input type="email" id="username" name="username"
+				class="form-control" placeholder="邮箱地址" required autofocus>
+			<span class="input-group-addon"></span>
+		</div>
+		<div class="input-group ">
+			<input type="password" id="password" name="password"
+				class="form-control" placeholder="密码" required> <span
+				class="input-group-addon"></span>
+		</div>
+		<div class="input-group">
+			<input type="text" name="code" class="form-control" placeholder="验证码"
+				required></input> 
+			<span class="input-group-addon"></span>
+		</div>
+		<img id="code" style="float: right;" src="/login/captcha" title="点击刷新"
+			onclick="$(this).attr('src','/login/captcha?t='+new Date())">
+		<div class="checkbox">
+			<label> <input type="checkbox" name="rememberme" value="true">记住我
+			</label>
+		</div>
+		<button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+	</form>
+</div>
 @ }
