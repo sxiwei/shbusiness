@@ -303,6 +303,7 @@
                                     // Place it after the label containing the checkbox/radio
                                     // so when clicking the icon, it doesn't effect to the checkbox/radio element
                                     .insertAfter(('checkbox' === type || 'radio' === type) ? $field.parent() : $field);
+
                     // The feedback icon does not render correctly if there is no label
                     // https://github.com/twbs/bootstrap/issues/12873
                     if ($parent.find('label').length === 0) {

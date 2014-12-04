@@ -41,6 +41,7 @@ public class GlobalHandler extends Handler {
 		StringBuilder sb = new StringBuilder();
 		sb.append(request.getScheme()).append("://").append(request.getServerName()).append(":").append(request.getServerPort()).append(request.getContextPath());
 		String path = sb.toString();
+		log.info("请求路径：" + path);
 		sb = null;
 		return path;
 	}
