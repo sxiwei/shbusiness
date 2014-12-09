@@ -1,5 +1,5 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<div>
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -11,9 +11,31 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">首页</a></li>
-                <li><a href="${cxt}/product">产品中心</a></li>
-                <li><a href="#contact">联系我们</a></li>
+                <li id="homeli" 
+                @ if(activeli == 'homeli') {
+                class="active"
+               	@ } 
+               	><a href="/">网站首页</a></li>
+                <li id="productli" 
+                @ if(activeli == 'productli') {
+                class="active"
+               	@ }
+               	><a href="${cxt}/product">产品中心</a></li>
+                <li id="serviceli" 
+                @ if(activeli == 'serviceli') {
+                class="active"
+               	@ }
+               	><a href="#contact">服务与支持</a></li>
+                <li id="newsli" 
+                @ if(activeli == 'newsli') {
+                class="active"
+               	@ }
+               	><a href="#contact">新闻中心</a></li>
+                <li id="contactli" 
+                @ if(activeli == 'contactli') {
+                class="active"
+               	@ }
+               	><a href="#contact">联系我们</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
@@ -27,57 +49,18 @@
                   </ul>
                 </li>
               </ul>
-              <form class="navbar-form navbar-right" role="form">
+              <form class="navbar-form navbar-right" role="form" action="">
 	            <div class="form-group">
-	              <input type="text" placeholder="search" class="form-control">
+	              <div class="input-group custom-search-form">
+                                <input type="text" name="search" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                            </div>
 	            </div>
-	            <button type="submit" class="btn btn-success">go</button>
 	          </form>
             </div>
-            <!--div class="col-lg-2" style="float: right;">
-					    <div class="input-group">
-					      <input type="text" class="form-control">
-					      <span class="input-group-btn">
-					        <button class="btn btn-default" type="button">Go!</button>
-					      </span>
-					    </div>
-					 </div>-->
-          </div>
+            </div>
         </nav>
-
-<!--div class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-left: 1px;margin-right: 1px;">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="#">智能家居</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">首页</a></li>
-              <li><a href="#about">关于</a></li>
-              <li><a href="${cxt}/product">产品中心</a></li>
-              <li><a href="#connection">联系我们</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">个人中心<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="navbar-form pull-right">
-              <input class="span2" type="text" placeholder="search">
-              <button type="submit" class="btn">search</button>
-            </form>
-          </div><!--/.nav-collapse -->
-        <!--/div>
-      </div>
-    </div-->
