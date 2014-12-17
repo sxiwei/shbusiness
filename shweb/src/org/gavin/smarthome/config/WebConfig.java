@@ -6,6 +6,7 @@ import org.gavin.smarthome.controller.HomeController;
 import org.gavin.smarthome.controller.LoginController;
 import org.gavin.smarthome.controller.ProductController;
 import org.gavin.smarthome.handler.GlobalHandler;
+import org.gavin.smarthome.model.IPCProduct;
 import org.gavin.smarthome.model.IndexCarousel;
 import org.gavin.smarthome.model.IndexColumn;
 import org.gavin.smarthome.model.User;
@@ -66,6 +67,7 @@ public class WebConfig extends JFinalConfig {
 		arp.addMapping("sh_user", User.class);
 		arp.addMapping("sh_index_carousel", IndexCarousel.class);
 		arp.addMapping("sh_index_column", IndexColumn.class);
+		arp.addMapping("ipc_products", IPCProduct.class);
 		me.add(arp);
 
 		// 加载Shiro插件

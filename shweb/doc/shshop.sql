@@ -10,10 +10,57 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2014-11-17 18:41:19
+Date: 2014-12-17 18:11:01
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `ipc_products`
+-- ----------------------------
+DROP TABLE IF EXISTS `ipc_products`;
+CREATE TABLE `ipc_products` (
+  `ipc_model` varchar(64) NOT NULL,
+  `ipc_name` varchar(64) NOT NULL,
+  `ipc_brand` varchar(64) NOT NULL,
+  `ipc_factory_address` varchar(64) NOT NULL,
+  `ipc_system` varchar(64) NOT NULL,
+  `ipc_desc` varchar(128) DEFAULT NULL,
+  `addtime` datetime NOT NULL,
+  `ipc_sortid` bigint(20) NOT NULL,
+  `ipc_img_url` varchar(64) NOT NULL,
+  PRIMARY KEY (`ipc_model`),
+  KEY `FK_IPC_SORT` (`ipc_sortid`),
+  CONSTRAINT `FK_IPC_SORT` FOREIGN KEY (`ipc_sortid`) REFERENCES `ipc_sorts` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of ipc_products
+-- ----------------------------
+INSERT INTO `ipc_products` VALUES ('ACP-4000', 'ACP-4000', '研华', '台湾', 'linux', '4U上架式机箱，支持LED指示&声音警报通知', '2014-12-17 17:58:27', '1', 'ACP-4000.jpg');
+INSERT INTO `ipc_products` VALUES ('ARK-1122H', 'ARK-1122H', '研华', '台湾', 'windows', '测试333333', '2014-12-17 17:49:51', '2', 'ARK-1122H.jpg');
+INSERT INTO `ipc_products` VALUES ('BIS-6660C', 'BIS-6660C', '研华', '台湾', 'Intel Bay Trail SOC', '测试', '2014-12-17 15:01:49', '1', 'BIS-6660C.jpg');
+INSERT INTO `ipc_products` VALUES ('IPC-610-H', 'IPC-610-H', '研华', '台湾', 'windows', '测试444444', '2014-12-17 17:57:44', '1', 'IPC-610-H.jpg');
+INSERT INTO `ipc_products` VALUES ('IPC-610-L', 'IPC-610-L', '研华', '台湾', 'Intel Bay Trail SOC', '测试222222', '2014-12-17 15:06:52', '1', 'IPC-610-L.jpg');
+
+-- ----------------------------
+-- Table structure for `ipc_sorts`
+-- ----------------------------
+DROP TABLE IF EXISTS `ipc_sorts`;
+CREATE TABLE `ipc_sorts` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `sortname` varchar(64) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of ipc_sorts
+-- ----------------------------
+INSERT INTO `ipc_sorts` VALUES ('1', '电力应用平台');
+INSERT INTO `ipc_sorts` VALUES ('2', '嵌入式应用平台');
+INSERT INTO `ipc_sorts` VALUES ('3', '车载应用平台');
+INSERT INTO `ipc_sorts` VALUES ('4', 'X86网络通信应用平台');
+INSERT INTO `ipc_sorts` VALUES ('5', 'RISC网络通信应用平台');
 
 -- ----------------------------
 -- Table structure for `sh_index_carousel`
